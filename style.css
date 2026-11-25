@@ -1,0 +1,186 @@
+/* =====================================================================
+   MISSÃO 6 (CSS): ESTILIZEM A PÁGINA
+
+   A estrutura (HTML) já está pronta e as classes já estão no lugar.
+   Aqui embaixo cada classe tem um bloco vazio esperando por vocês.
+
+   Como preencher: escrevam as propriedades ENTRE as chaves { }.
+   Cada linha tem o formato   propriedade: valor;
+
+   Exemplo:
+
+     .cartao {
+       background: white;
+       padding: 24px;
+     }
+
+   As dicas em cada bloco são só sugestões. O visual é do grupo!
+   A "colinha" de propriedades está no arquivo TRABALHO.md.
+   ===================================================================== */
+
+
+/* ---------------------------------------------------------------------
+   A PÁGINA
+   --------------------------------------------------------------------- */
+
+/* A página inteira (o fundo atrás de tudo).
+   Dicas: background, color, font-family, margin, padding */
+body {
+
+}
+
+/* A caixa central, onde fica a lista inteira.
+   Dicas: background, max-width, margin (use "0 auto" para centralizar),
+          padding, border-radius, box-shadow */
+.cartao {
+
+}
+
+/* O título grande da página.
+   Dicas: color, font-size, text-align, margin */
+.titulo-pagina {
+
+}
+
+/* A frase "Lista de: nome do grupo", embaixo do título.
+   Dicas: color, font-size, margin */
+.dono {
+
+}
+
+/* O rodapé com o nome dos integrantes.
+   Dicas: color, font-size, text-align, margin-top */
+.rodape {
+
+}
+
+
+/* ---------------------------------------------------------------------
+   O FORMULÁRIO
+   --------------------------------------------------------------------- */
+
+/* A linha que junta o campo de texto, a prioridade e o botão.
+   Dicas: display (use "flex" para ficarem lado a lado), gap */
+.formulario {
+
+}
+
+/* O campo de texto e a caixa de prioridade.
+   Dicas: padding, border, border-radius, font-size */
+.campo {
+
+}
+
+/* O botão "Adicionar".
+   Dicas: background, color, border, border-radius, padding,
+          font-size, font-weight, cursor (use "pointer") */
+.botao-adicionar {
+
+}
+
+/* O botão "Adicionar" quando o mouse está em cima.
+   Dicas: background, opacity */
+.botao-adicionar:hover {
+
+}
+
+
+/* ---------------------------------------------------------------------
+   AVISOS E CONTADOR
+   --------------------------------------------------------------------- */
+
+/* A caixa de avisos e mensagens de erro.
+   Dicas: background, color, padding, border-radius, margin-top */
+.aviso {
+
+}
+
+/* O contador de tarefas (só aparece se o grupo fizer o desafio opcional).
+   Dicas: font-size, font-weight, margin-top */
+.contador {
+
+}
+
+
+/* ---------------------------------------------------------------------
+   A LISTA DE TAREFAS
+   --------------------------------------------------------------------- */
+
+/* A lista inteira (o <ul>).
+   Dicas: list-style (use "none" para tirar as bolinhas), padding, margin */
+.lista {
+
+}
+
+/* Cada tarefa da lista (cada <li>).
+   Dicas: display (use "flex" para ficar tudo na mesma linha), gap,
+          align-items (use "center"), padding, margin-bottom,
+          border, border-radius, background */
+.tarefa {
+
+}
+
+/* O texto da tarefa.
+   Dicas: flex (use "1" para o texto ocupar o espaço que sobrar), font-size */
+.titulo {
+
+}
+
+/* A etiqueta que mostra a prioridade ("Baixa", "Média" ou "Alta").
+   Dicas: background, padding, border-radius, font-size */
+.etiqueta {
+
+}
+
+/* Tarefa de prioridade BAIXA.
+   Dica: border-left (exemplo: 6px solid green) */
+.prioridade-baixa {
+
+}
+
+/* Tarefa de prioridade MÉDIA.
+   Dica: border-left (exemplo: 6px solid orange) */
+.prioridade-media {
+
+}
+
+/* Tarefa de prioridade ALTA.
+   Dica: border-left (exemplo: 6px solid red) */
+.prioridade-alta {
+
+}
+
+/* Tarefa que já foi concluída.
+   Dicas: opacity (exemplo: 0.5), text-decoration (use "line-through"
+          para riscar o texto) */
+.concluida {
+
+}
+
+/* O botão "Concluir" de cada tarefa.
+   Dicas: background, color, border, border-radius, padding, cursor */
+.botao-concluir {
+
+}
+
+/* O botão "Apagar" de cada tarefa.
+   Dicas: background, color, border, border-radius, padding, cursor */
+.botao-apagar {
+
+}
+
+/* A mensagem que aparece quando a lista está vazia.
+   Dicas: color, text-align, padding */
+.vazio {
+
+}
+
+
+/* =====================================================================
+   JÁ ESTÁ PRONTO - NÃO APAGUEM
+   Esconde a caixa de aviso e o contador quando eles estão sem texto.
+   ===================================================================== */
+.aviso:empty,
+.contador:empty {
+  display: none;
+}
