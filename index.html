@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossa Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="cartao">
+
+    <!-- ============================================================
+         A ESTRUTURA DESTA PÁGINA JÁ ESTÁ PRONTA.
+         Cada parte tem uma "class". É por essa class que vocês
+         vão estilizar a página lá no arquivo style.css (Missão 6).
+
+         MISSÃO 1 (HTML): troquem o texto do <h1> pelo nome da lista
+         do grupo. Exemplo: "Tarefas do Grupo 3".
+         ============================================================ -->
+    <h1 class="titulo-pagina">Nossa Lista de Tarefas</h1>
+
+    <!-- O JavaScript escreve aqui o nome que vocês colocarem em NOME_DO_GRUPO -->
+    <p id="dono" class="dono"></p>
+
+    <!-- Formulário para criar uma tarefa nova -->
+    <form id="form-tarefa" class="formulario">
+      <input
+        id="campo-titulo"
+        class="campo"
+        type="text"
+        placeholder="O que o grupo precisa fazer?"
+        autocomplete="off"
+      >
+
+      <select id="campo-prioridade" class="campo">
+        <option value="baixa">Baixa</option>
+        <option value="media" selected>Média</option>
+        <option value="alta">Alta</option>
+      </select>
+
+      <button type="submit" class="botao-adicionar">Adicionar</button>
+    </form>
+
+    <!-- Avisos e mensagens de erro aparecem aqui -->
+    <p id="aviso" class="aviso"></p>
+
+    <!-- Desafio opcional: o contador de tarefas aparece aqui -->
+    <p id="contador" class="contador"></p>
+
+    <!-- As tarefas são desenhadas aqui dentro pelo JavaScript -->
+    <ul id="lista-tarefas" class="lista"></ul>
+
+  </main>
+
+  <!-- MISSÃO 1 (HTML): escrevam o nome de todos os integrantes no rodapé -->
+  <footer class="rodape">Feito por: NOMES DOS INTEGRANTES AQUI</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
